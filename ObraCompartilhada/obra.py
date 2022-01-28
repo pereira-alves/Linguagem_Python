@@ -14,7 +14,7 @@ while True:
     if resposta ==1:
         while True:
             cabeçalho('Conceito')
-            resposta = menu(['O que é concreto', 'Materiais', 'Cuidados', 'Voltar'])
+            resposta = menu(['O que é Concreto', 'Materiais', 'Cuidados', 'Voltar'])
             if resposta == 1:
                 historia()
             elif resposta == 2:
